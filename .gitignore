@@ -1,0 +1,66 @@
+# .gitignore for Django projects
+
+# Ignore virtual environment
+venv/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore the local settings file
+.env
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore log files
+*.log
+
+# Ignore environment-specific settings
+.env
+
+# Ignore the media directory (uploaded user files)
+media/
+
+# Ignore static files
+staticfiles/
+
+# Ignore secret key file
+secret_key.txt
+
+# Ignore database migration files
+**/migrations/*.py
+**/migrations/*.pyc
+
+# Ignore local development settings
+local_settings.py
+
+# Ignore coverage reports
+htmlcov/
+
+# Ignore test database
+db.sqlite3
+
+# Ignore compiled UI files
+node_modules/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore Docker files (if using Docker)
+Dockerfile
+docker-compose.yml
+
+# Ignore Heroku files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+/staticfiles
+/__pycache__/
+env/
